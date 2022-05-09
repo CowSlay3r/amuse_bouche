@@ -4,7 +4,7 @@ font-family: 'Playfair Display', serif;
 font-family: 'Roboto Flex', sans-serif;
 */
 
-
+/* header */
 nav {
     max-width: 980px;
     min-height: 78px;
@@ -69,3 +69,62 @@ nav {
     color: black;
     font-size: 17px;
 }
+
+/* header end */
+
+body {
+    background-color: #F2F2F2 !important;
+}
+
+main {
+    max-width: 980px;
+    margin: auto;
+}
+
+.banner-area {
+    display: flex;
+    justify-content: space-between;
+}
+.banner-area .left, .right {
+    width: 50%;
+}
+
+.carousel-inner img {
+    max-height: 456px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-area .right {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-area .right a {
+    width: 109px;
+    text-decoration: underline;
+    color: #3f3f3f !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.9px;
+    font-size: 15px;
+}
+
+.banner-area .right h2 {
+    color: #3f3f3f;
+    font-size: 26px;
+    width: 324px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    opacity: 1;
+}
+
+
